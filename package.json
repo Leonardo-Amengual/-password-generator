@@ -1,22 +1,4 @@
 {
-  "name": "-password-generator",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Leonardo-Amengual/-password-generator.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Leonardo-Amengual/-password-generator/issues"
-  },
-  "homepage": "https://github.com/Leonardo-Amengual/-password-generator#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.7"
   }
