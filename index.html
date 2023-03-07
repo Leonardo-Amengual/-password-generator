@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./dist/output.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-indigo-400">
+  <div class="fixed z-10 inset-0 overflow-y-auto hidden " id="modal">
+    <div class="flex items-center justify-center min-h-screen px-4">
+      <div class="bg-white rounded-lg p-4 w-3/4">
+        <div>
+          <div class="bg-gray-100 p-6 rounded-md shadow-md">
+            <h2 class="text-lg font-medium mb-4">Cadastre-se agora</h2>
+            <form>
+              <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="nome">Nome completo</label>
+                <input class="border-gray-400 border-2 rounded-md w-full py-2 px-3" type="text" id="nome" name="nome"
+                  required>
+              </div>
+              <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="email">Endereço de e-mail</label>
+                <input class="border-gray-400 border-2 rounded-md w-full py-2 px-3" type="email" id="email" name="email"
+                  required>
+              </div>
+              <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="senha">Senha</label>
+                <input class="border-gray-400 border-2 rounded-md w-full py-2 px-3" type="password" id="senha"
+                  name="senha" required>
+              </div>
+              <div class="mb-4">
+                <label class="block text-gray-700 font-medium mb-2" for="confirma-senha">Confirme a senha</label>
+                <input class="border-gray-400 border-2 rounded-md w-full py-2 px-3" type="password" id="confirma-senha"
+                  name="confirma-senha" required>
+              </div>
+              <div class="text-center">
+                <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md">Cadastrar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="mt-4">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" id="fechar">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="fixed flex justify-center bottom-0 right-0 mb-4 mr-4">
+    <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" id="abrir">Abrir Modal</button>
+  </div>
+
+
+  
+
+
+
+  <!-- Importando o arquivo CSS -->
+  <script src="./css/modal.css"></script>
+
+  <!-- Importando o arquivo JavaScript -->
+  <script src="./js/modal.js"></script>
+</body>
+
+</html>
